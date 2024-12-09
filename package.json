@@ -1,0 +1,20 @@
+{
+  "name": "postcss-remove-hover",
+  "version": "1.0.0",
+  "description": "PostCSS plugin to remove hover styles",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "postcss-remove-hover"
+  ],
+  "scripts": {
+    "unit": "node --test index.test.js",
+    "test": "npm run unit && eslint ."
+  },
+  "author": "jaehyeok jin <jjh2613@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/jjh2613/postcss-remove-hover",
+  "peerDependencies": {},
+  "devDependencies": {}
+}
