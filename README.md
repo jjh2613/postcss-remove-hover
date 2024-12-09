@@ -14,7 +14,16 @@ yarn add postcss-remove-hover
 
 ```js
 // postcss.config.js
+
 module.exports = {
   plugins: ["postcss-remove-hover"],
 };
+// or
+module.exports = {
+  plugins: {
+    ...
+    "postcss-remove-hover": {},
+  },
+};
+
 ```
